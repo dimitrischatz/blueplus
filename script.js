@@ -9,7 +9,7 @@ onScroll();
 
 // Scroll reveal
 const revealTargets = document.querySelectorAll(
-  '.section-head, .about-col, .pillar, .card, .fin-item, .value, .office, .contact-email, .hero-stats .stat'
+  '.section-head, .about-col, .pillar, .card, .fin-keyword, .engage-col, .office, .contact-email, .hero-stats .stat, .meta-block'
 );
 revealTargets.forEach(el => el.classList.add('reveal'));
 
